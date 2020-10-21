@@ -1,0 +1,11 @@
+- Parse url của req sử dụng url.parse()
+
+- Render template của product sử dụng query
+
+- Custom module
+ + module.export để sử dụng cho các file khác
+ + Tạo folder modules
+ + export replaceTemplate.js
+ + Bên trong sử dụng anonymous function để export
+
+Note : Khi import một module custom thì import nó để dưới core module của Node

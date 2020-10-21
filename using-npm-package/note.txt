@@ -1,0 +1,32 @@
+Khởi tạo npm cho project
+=> npm init
+
+Trong npm có 3 loại dependency
+- dependency project : project cần nó để chạy
+=> npm i [name-dependency]
+
+- dependency development : project product không cần nó để chạy mà chỉ dùng trong môi trường phát triển
+=> npm i [name-dependency] --save-dev
+
+- dependency global : Cài đặt sẵn trong máy, có thể sự dụng bất cứ project nào
+=> npm i [name-dependency] --global
+
+version dependency
+vd: 1.4.5
+1 : phiên bản chính
+4 : phiên bản nhỏ
+5 : phiên bản vá lỗi / phiên bản cuối cùng hiện tại (mới nhất)
+
+- Kiểm tra xem có phiên bản nào lỗi thời không
+=> npm outdated
+
+- chỉ định phiên bản để cài đặt
+=> npm i [name-dependency]@[phiên bản]
+vd : npm i slugify@1.0.0
+
+Ký hiệu : ~[phiên bản]
+
+Update phiên bản : npm update [name-dependency]
+
+Xóa dependency
+=> npm uninstall [name-dependency]
